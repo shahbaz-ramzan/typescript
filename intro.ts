@@ -4,4 +4,6 @@ const user={
 }
 
 console.log("shahbaz" )
-console.log(user.email)
+console.log(user.age)
+
+export{}
