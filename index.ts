@@ -59,3 +59,9 @@ function isDivisibleBy4And8(num:number):boolean{
 
 const resultofDivisble=isDivisibleBy4And8(16)
 console.log(resultofDivisble)
+
+// bigint number
+
+let a=BigInt("90071992547409925")
+console.log(a)
+console.log( "type",typeof a)

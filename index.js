@@ -41,3 +41,7 @@ function isDivisibleBy4And8(num) {
 }
 var resultofDivisble = isDivisibleBy4And8(16);
 console.log(resultofDivisble);
+// bigint number
+var a = BigInt("90071992547409925");
+console.log(a);
+console.log("type", typeof a);
