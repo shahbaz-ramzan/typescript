@@ -15,3 +15,18 @@ console.log(uppercase);
 // convert to lowercase
 var lowercase = uppercase.toLowerCase();
 console.log(lowercase);
+// bolean 
+var isMyNameShahbaz = true;
+var isDone = false;
+var hasStarted = false;
+// function check even or odd numbers
+function getBoolean(num) {
+    if (num % 2 === 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+var result = getBoolean(6);
+console.log("result: " + result);

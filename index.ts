@@ -26,3 +26,23 @@ console.log(uppercase)
 
 let lowercase:string=uppercase.toLowerCase()
 console.log(lowercase)
+
+// bolean 
+
+let isMyNameShahbaz:Boolean=true;
+let isDone:Boolean=false;
+let hasStarted:Boolean=false;
+
+// function check even or odd numbers
+
+function getBoolean(num:number):boolean{
+    if(num%2===0){
+        return true
+    }
+    else{
+        return false
+    }
+}
+const result:boolean=getBoolean(5)
+
+console.log("result: " + result)
