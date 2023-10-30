@@ -16,3 +16,13 @@ let myName:string="shahbaz"
 let stringLength:number=myName.length
 console.log(stringLength)
 
+// convert to uppercase
+
+let fullName:string="shahbaz ramzan"
+let uppercase:string=fullName.toUpperCase()
+console.log(uppercase)
+
+// convert to lowercase
+
+let lowercase:string=uppercase.toLowerCase()
+console.log(lowercase)

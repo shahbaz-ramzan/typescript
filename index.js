@@ -8,3 +8,10 @@ console.log(sum(5, 10));
 var myName = "shahbaz";
 var stringLength = myName.length;
 console.log(stringLength);
+// convert to uppercase
+var fullName = "shahbaz ramzan";
+var uppercase = fullName.toUpperCase();
+console.log(uppercase);
+// convert to lowercase
+var lowercase = uppercase.toLowerCase();
+console.log(lowercase);
