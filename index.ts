@@ -46,3 +46,16 @@ function getBoolean(num:number):boolean{
 const result:boolean=getBoolean(5)
 
 console.log("result: " + result)
+
+// function is divisible by 4 and 8
+
+function isDivisibleBy4And8(num:number):boolean{
+    if(num%4===0 && num%8===0){
+        return true
+    }else{
+        return false
+    }
+}
+
+const resultofDivisble=isDivisibleBy4And8(16)
+console.log(resultofDivisble)
